@@ -1,0 +1,32 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "category": "Utilities",
+  "author": "Mattboxx",
+  "developer": "Mattboxx",
+  "tagline": "Share text and files between Windows, iPhone and your server.",
+  "description": "A private clipboard and file bridge with history, multiple accounts and iPhone Shortcuts support.",
+  "thumbnail": "",
+  "tips": {
+    "before_install": "Set a web password and API token if the service is reachable by untrusted devices."
+  },
+  "update_at": "2026-07-30",
+  "website": "https://github.com/Mattboxx/Clipboard-Bridge",
+  "repo": "https://github.com/Mattboxx/Clipboard-Bridge",
+  "support": "https://github.com/Mattboxx/Clipboard-Bridge/issues",
+  "docs": "https://github.com/Mattboxx/Clipboard-Bridge/blob/main/GUIDE.md",
+  "title": "Clipboard Bridge",
+  "base_url": "https://mattboxx.github.io/Clipboard-Bridge-AppStore",
+  "id": "io.github.mattbox03.clipboard-bridge",
+  "version": "1.0.4",
+  "categories": [
+    "utilities"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 50877868,
+    "arm64": 50525168
+  }
+}

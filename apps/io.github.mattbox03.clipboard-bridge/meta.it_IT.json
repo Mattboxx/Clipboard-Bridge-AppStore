@@ -1,0 +1,9 @@
+{
+  "id": "io.github.mattbox03.clipboard-bridge",
+  "title": "Clipboard Bridge",
+  "tagline": "Condividi testo e file tra Windows, iPhone e il tuo server.",
+  "description": "Un ponte privato per clipboard e file con cronologia, account multipli e supporto Comandi Rapidi iPhone.",
+  "tips": {
+    "before_install": "Imposta password web e token API se il servizio è raggiungibile da dispositivi non fidati."
+  }
+}

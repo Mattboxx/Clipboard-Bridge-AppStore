@@ -1,0 +1,36 @@
+name: clipboard-bridge
+services:
+  clipboard-bridge:
+    image: ghcr.io/mattboxx/clipboard-bridge-server:1.0.4@sha256:23e068c183020e75bb08ba49dcb4d8cc4c186400e0fbb9eacfae4b79344b9b33
+    container_name: clipboard-bridge
+    restart: unless-stopped
+    ports:
+      - target: 5088
+        published: "5088"
+        protocol: tcp
+    environment:
+      CLIPBOARD_PORT: "5088"
+      CLIPBOARD_DATA_DIR: /data
+      CLIPBOARD_MAX_HISTORY: "${CLIPBOARD_MAX_HISTORY:-200}"
+      CLIPBOARD_MAX_UPLOAD_MB: "${CLIPBOARD_MAX_UPLOAD_MB:-64}"
+      CLIPBOARD_TOKEN: "${CLIPBOARD_TOKEN:-}"
+      CLIPBOARD_PASSWORD: "${CLIPBOARD_PASSWORD:-}"
+      CLIPBOARD_ACCOUNTS: "${CLIPBOARD_ACCOUNTS:-}"
+    volumes:
+      - /DATA/AppData/clipboard-bridge/data:/data
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:5088/health', timeout=3)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+x-casaos:
+  id: io.github.mattbox03.clipboard-bridge
+  main: clipboard-bridge
+  icon: https://mattboxx.github.io/Clipboard-Bridge-AppStore/apps/io.github.mattbox03.clipboard-bridge/assets/icon.svg
+  port_map: "5088"
+  scheme: http
+  index: /
+  title:
+    en_US: Clipboard Bridge
+    it_IT: Clipboard Bridge
+  version: "1.0.4"
