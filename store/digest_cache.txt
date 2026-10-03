@@ -1,0 +1,1 @@
+ghcr.io/mattboxx/clipboard-bridge-server:1.0.5 sha256:17edf23f6e80ae3aec21637301855cfce46ddc3aaecb97e6758d46566b9d62df
