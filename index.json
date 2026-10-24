@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "updated_at": "2026-10-24T11:27:50Z",
+  "app_count": 1,
+  "base_url": "https://mattboxx.github.io/Clipboard-Bridge-AppStore",
+  "apps": [
+    {
+      "id": "io.github.mattbox03.clipboard-bridge",
+      "title": "Clipboard Bridge",
+      "tagline": "Share text and files between Windows, Android, iPhone and your server.",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "author": "Mattboxx",
+      "developer": "Mattboxx",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mattbox03.clipboard-bridge/assets/icon.svg",
+      "thumbnail": "",
+      "compose_url": "/apps/io.github.mattbox03.clipboard-bridge/docker-compose.yml",
+      "meta_url": "/apps/io.github.mattbox03.clipboard-bridge/meta.json",
+      "content_hash": "d5afc042",
+      "version": "1.0.10"
+    }
+  ]
+}
