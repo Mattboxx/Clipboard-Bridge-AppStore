@@ -1,0 +1,37 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "category": "Productivity",
+  "author": "Mattboxx",
+  "developer": "Mattboxx",
+  "tagline": "Share text and files between Windows, Android, iPhone and your server.",
+  "description": "Share text, photos and file groups between Windows, Android and Apple Shortcuts. Includes persistent searchable history, optional separate accounts, browser access and a seven-language setup guide. No mandatory cloud account. Use a trusted LAN or private VPN; Apple actions are manual and Android background access is restricted.",
+  "thumbnail": "",
+  "screenshot_link": [
+    "/apps/io.github.mattbox03.clipboard-bridge/assets/server-web.webp",
+    "/apps/io.github.mattbox03.clipboard-bridge/assets/server-history.webp"
+  ],
+  "tips": {
+    "before_install": "Use only on a trusted LAN or private VPN. Accounts and token are optional; credential URLs and HTTP are not encrypted. Keep /data persistent and back it up before updates. Open Connect your devices on the web page for setup instructions."
+  },
+  "update_at": "2026-10-27",
+  "website": "https://mattboxx.github.io/Clipboard-Bridge/",
+  "repo": "https://github.com/Mattboxx/Clipboard-Bridge",
+  "support": "https://github.com/Mattboxx/Clipboard-Bridge/issues",
+  "docs": "https://mattboxx.github.io/Clipboard-Bridge/tutorial.html",
+  "title": "Clipboard Bridge",
+  "release_note": "GitHub and localized optional Ko-fi support are now visible at the top of the web page. Existing accounts, persistent data and Apple Shortcut URLs remain compatible.",
+  "base_url": "https://mattboxx.github.io/Clipboard-Bridge-AppStore",
+  "id": "io.github.mattbox03.clipboard-bridge",
+  "version": "1.0.11",
+  "categories": [
+    "productivity"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 51497929,
+    "arm64": 51154385
+  }
+}

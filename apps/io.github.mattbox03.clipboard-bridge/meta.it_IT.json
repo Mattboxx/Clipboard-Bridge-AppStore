@@ -1,0 +1,10 @@
+{
+  "id": "io.github.mattbox03.clipboard-bridge",
+  "title": "Clipboard Bridge",
+  "description": "Condividi testo, foto e gruppi di file tra Windows, Android e Comandi Rapidi Apple. Cronologia persistente ricercabile, account separati opzionali, accesso web e guida in sette lingue. Nessun account cloud obbligatorio. Usa una LAN fidata o VPN privata; su Apple le azioni sono manuali e Android limita l'accesso in background.",
+  "release_note": "GitHub e il supporto opzionale Ko-fi nella lingua scelta sono ora visibili in alto nella pagina web. Account, dati persistenti e URL Apple restano compatibili.",
+  "tagline": "Condividi testo e file tra Windows, Android, iPhone e il tuo server.",
+  "tips": {
+    "before_install": "Usa solo su LAN fidata o VPN privata. Account e token sono opzionali; URL con credenziali e HTTP non sono cifrati. Mantieni /data persistente e salvalo prima di aggiornare. Apri Collega i tuoi dispositivi nella pagina web per le istruzioni."
+  }
+}
