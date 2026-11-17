@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "store_id": "io.github.mattbox03.clipboard-bridge",
+  "name": "Clipboard Bridge App Store",
+  "description": "One-click installation of Clipboard Bridge on ZimaOS.",
+  "maintainer": "Mattboxx",
+  "url": "https://github.com/Mattboxx/Clipboard-Bridge-AppStore"
+}
